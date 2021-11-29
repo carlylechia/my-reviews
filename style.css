@@ -1,0 +1,154 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.review-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  background-color: #f1f5f8;
+}
+
+.header .heading {
+  font-size: 2.3rem;
+  color: #102a42;
+}
+
+.header .heading-underline {
+  width: 30%;
+  height: 4px;
+  margin: 0.4rem auto;
+  background-color: #49a6e9;
+}
+
+.review {
+  background-color: #ffff;
+  width: 90vw;
+  max-width: 600px;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 9px;
+  box-shadow: 3px 3px 8px gray;
+  text-align: center;
+}
+
+.review .author-image-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 150px;
+  width: 150px;
+  margin: 0.5rem auto;
+}
+
+.review .author-image-container::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #49a6e9;
+  position: absolute;
+  top: -0.25rem;
+  right: -0.5rem;
+  border-radius: 50%;
+}
+
+.review .author-image-container::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 1rem;
+  color: white;
+  content: "\f10e";
+  background-color: #49a6e9;
+  padding: 0.5rem;
+  position: absolute;
+  border-radius: 50%;
+  left: 6%;
+  top: 4px;
+}
+
+.review .author-image {
+  position: relative;
+  object-fit: cover;
+}
+
+.review .author-name {
+  letter-spacing: 3px;
+  margin: 1rem 0 0.4rem 0;
+  color: #102a42;
+  font-size: 1.2rem;
+}
+
+.review .author-title {
+  color: #49a6e9;
+  font-size: 1rem;
+}
+
+.review .review-text {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #8f7d98;
+}
+
+.review .btn-container {
+  margin-top: 1.5rem;
+}
+
+.review .btn-container > button {
+  font-size: 1.4rem;
+  color: #49a6e9;
+}
+
+.review .btn-container > button:hover {
+  color: #0e93f1;
+}
+
+.review .btn-container .pre {
+  margin-right: 2rem;
+}
+
+.review .btn {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.review .surprise-btn {
+  margin-top: 0.8rem;
+  font-size: 1.1rem;
+  color: #49a6e9;
+  border: 2px solid #49a6e9;
+  padding: 14px 16px;
+  border-radius: 7px;
+}
+
+.review .surprise-btn:hover {
+  color: #102a42;
+}
+
+@media screen and (min-width: 800px) {
+  .header .heading {
+    font-size: 3.5rem;
+  }
+  .review .author-name {
+    font-size: 1.4rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */
