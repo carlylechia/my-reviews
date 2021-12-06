@@ -5,7 +5,7 @@ const reviews = [
       name: "Ngani Faith",
       title: "Manager",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJk5wg3aOsUwlWrsN8sUjdhPJ8TLT3o40jdQ&usqp=CAU",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aeneanscelerisque commodo justo, at pretium velit malesuada tempus. Sed atmauris molestie, commodo dui vitae, lobortis ipsum. Duis egetposuere urna. Donec at feugiat tortor, vel scelerisque justo. Nuncluctus dignissim eleifend. Vivamus a tellus enim. Nulla facilisi.Quisque sodales interdum est eget convallis. Curabitur mattis."
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aeneanscelerisque commodo justo, at pretium velit malesuada tempus."
     },
     {
       id: 2,
