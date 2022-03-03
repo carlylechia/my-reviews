@@ -1,6 +1,6 @@
 # MY REVIEWS
 
-The project, 'My Reviews" is aimed at building a small, yet vital part of a web application, the display of review comments and feedbacks. Sometimes, business owners or service providers decide to display some prior reviews and feedbacks given by satisfied clients or customers in order to encourage and attract even more customers. Sometimes, even negative feedback is displayed, which is indication of growth and progress. This is just a demonstration and I built it to practice my javascript and front-end web developmwnt.
+The project, 'My Reviews" is aimed at building a small, yet vital part of a web application, the display of review comments and feedbacks. Sometimes, business owners or service providers decide to display some prior reviews and feedbacks given by satisfied clients or customers in order to encourage and attract even more customers. Sometimes, even negative feedback is displayed, which is indication of growth and progress. This is just a demonstration and I built it to practice my javascript and front-end web development.
 
 ## Languages and Technologies
 
